@@ -7,6 +7,7 @@
   <title>Logística | Due Log Transporte e Logística Internacional</title>
   <link rel="stylesheet" href="./style/style.css">
   <link rel="stylesheet" href="./style/bootstrap.min.css">
+  <link rel="stylesheet" href="./style/uikit.min.css">
 </head>
 
 <body>
@@ -62,97 +63,87 @@
         <div class="nossos-servicos">
           <!-- Card -->
           <!-- Primeiro card -->
-          <div class="card mb-3" style="max-width: 800px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="./img/transporte-aereo.jpg" class="img-fluid rounded-start" alt="...">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Transporte Aéreo:</h5>
-                  <p class="card-text">
-                    A Due Log oferece um serviço de excelência que prima pela rapidez e confiabilidade graças às
-                    parcerias estratégicas com as principais linhas aéreas do mundo, fortalecida pela rede de agentes e
-                    representantes nos mais importantes aeroportos nacionais e internacionais.
-                  </p>
+          <div class="uk-child-width-1-3@s uk-grid-match" uk-grid>
+            <div>
+              <div class="uk-card uk-card-default uk-card-hover uk-card-body">
+                <h3 class="uk-card-title">Transporte Rodoviário:</h3>
+                <div class="uk-overflow-hidden">
+                  <img src="./img/transporte-rodoviario.jpg" width="900" height="600" alt="Caminhão"
+                    uk-scrollspy="cls: uk-animation-kenburns; repeat: true">
                 </div>
+                <p>
+                  Através de nosso serviço rodoviário proporcionamos tranquilidade e segurança para as necessidades de
+                  transporte terrestre de nossos clientes. Para tal contamos com uma frota de veículos diferenciada
+                  capaz de atender de forma específica as demandas de cada tipo de carga considerando sempre a melhor
+                  relação custo x benefício.
+                </p>
+              </div>
+            </div>
+            <!-- Segundo card -->
+            <div>
+              <div class="uk-card uk-card-default uk-card-hover uk-card-body">
+                <h3 class="uk-card-title">Transporte Aéreo:</h3>
+                <div class="uk-overflow-hidden">
+                  <img src="./img/transporte-aereo.jpg" width="900" height="600" alt="Avião"
+                    uk-scrollspy="cls: uk-animation-kenburns; repeat: true">
+                </div>
+                <p>
+                  A Due Log oferece um serviço de excelência que prima pela rapidez e confiabilidade graças às parcerias
+                  estratégicas com as principais linhas aéreas do mundo, fortalecida pela rede de agentes e
+                  representantes nos mais importantes aeroportos nacionais e internacionais.
+                </p>
+              </div>
+            </div>
+            <!-- Terceiro card -->
+            <div>
+              <div class="uk-card uk-card-default uk-card-hover uk-card-body">
+                <h3 class="uk-card-title">Transporte Marítimo:</h3>
+                <div class="uk-overflow-hidden">
+                  <img src="./img/transporte-maritimo.jpg" width="900" height="600" alt="Avião"
+                    uk-scrollspy="cls: uk-animation-kenburns; repeat: true">
+                </div>
+                <p>
+                  Devido a larga atuação de nosso time de profissionais em projetos de movimentação de grandes volumes
+                  nesse modal, a Due Log possui relacionamento consolidado com companhias marítimas o que nos permite
+                  oferecer aos nossos clientes as melhores soluções para operações de importação e exportação marítima.
+                </p>
+              </div>
+            </div>
+            <!-- Quarto card -->
+            <div>
+              <div class="uk-card uk-card-default uk-card-hover uk-card-body">
+                <h3 class="uk-card-title">Cargas Projeto:</h3>
+                <div class="uk-overflow-hidden">
+                  <img src="./img/cargas-projeto.jpg" width="900" height="600" alt="Avião"
+                    uk-scrollspy="cls: uk-animation-kenburns; repeat: true">
+                </div>
+                <p>
+                  Contamos com um time altamente qualificado para a gestão de todas as etapas da cadeia logística que
+                  envolvem a movimentação de cargas especiais e capaz de garantir a confiança necessária para sua
+                  efetivação.
+                </p>
+              </div>
+            </div>
+            <!-- Quinto card -->
+            <div>
+              <div class="uk-card uk-card-default uk-card-hover uk-card-body">
+                <h3 class="uk-card-title">Cabotagem:</h3>
+                <div class="uk-overflow-hidden">
+                  <img src="./img/cobotagem.jpg" width="900" height="600" alt="Avião"
+                    uk-scrollspy="cls: uk-animation-kenburns; repeat: true">
+                </div>
+                <p>
+                  Com serviço confiável, frete competitivo e flexibilidade de rotas e modais, a Due Log oferece
+                  cabotagem simples ou consolidada, coordenando a entrega de acordo com as especificações apresentadas
+                  por nossos clientes.
+                </p>
               </div>
             </div>
           </div>
-          <!-- Segundo card -->
-          <div class="card mb-3" style="max-width: 800px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="./img/transporte-maritimo.jpg" class="img-fluid rounded-start" alt="...">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Transporte Marítimo:</h5>
-                  <p class="card-text">
-                    Devido a larga atuação de nosso time de profissionais em projetos de movimentação de grandes volumes
-                    nesse modal, a Due Log possui relacionamento consolidado com companhias marítimas o que nos permite
-                    oferecer aos nossos clientes as melhores soluções para operações de importação e exportação
-                    marítima.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Terceiro card -->
-          <div class="card mb-3" style="max-width: 800px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="./img/transporte-rodoviario.jpg" class="img-fluid rounded-start" alt="...">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Transporte Rodoviário:</h5>
-                  <p class="card-text">
-                    Através de nosso serviço rodoviário proporcionamos tranquilidade e segurança para as necessidades de
-                    transporte terrestre de nossos clientes. Para tal contamos com uma frota de veículos diferenciada
-                    capaz de atender de forma específica as demandas de cada tipo de carga considerando sempre a melhor
-                    relação custo x benefício.​
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Quarto card -->
-          <div class="card mb-3" style="max-width: 800px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="./img/cargas-projeto.png" class="img-fluid rounded-start" alt="...">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Cargas Projeto:</h5>
-                  <p class="card-text">
-                    Contamos com um time altamente qualificado para a gestão de todas as etapas da cadeia logística que
-                    envolvem a movimentação de cargas especiais e capaz de garantir a confiança necessária para sua
-                    efetivação.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Quinto card -->
-          <div class="card mb-3" style="max-width: 800px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="./img/cobotagem.png" class="img-fluid rounded-start" alt="...">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Cabotagem:</h5>
-                  <p class="card-text">
-                    Com serviço confiável, frete competitivo e flexibilidade de rotas e modais, a Due Log oferece
-                    cabotagem simples ou consolidada, coordenando a entrega de acordo com as especificações apresentadas
-                    por nossos clientes.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
+
+
+
+
         </div>
         <div class="primeiro-logo">
           <figcaption>
@@ -202,6 +193,7 @@
     });
   </script>
   <script src="./js/bootstrap.min.js"></script>
+  <script src="./js/uikit.min.js"></script>
 </body>
 
 </html>
