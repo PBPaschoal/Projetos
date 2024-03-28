@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Cores */
+/* Menu */
+
+.navbar-custom,
+.dropdown-menu,
+.cta-button,
+.experiencias, 
+.experiencias .uk-card-badge
+footer {
+    background-color: rgb(130, 10, 209);
+}
+
+h3,
+#sobre h3,
+section .experiencias .container h3,
+.projetos .titulos h4,
+span.aviso,
+.uk-card-footer a:hover {
+    color: rgb(130, 10, 209);
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-nav .nav-link,
+.dropdown-menu a,
+.cta-button,
+.experiencias,
+.outras-experiencias,
+h4,
+.xp,
+footer {
+    color: rgb(255, 255, 255);
+}
+
+section .outras-experiencias .container h3,
+.projetos .titulos h3 {
+    color: rgb(47, 5, 73);
+}
+
+.outras-experiencias,
+.outras-experiencias .uk-card-badge {
+    background-color: rgb(47, 5, 73);
+}
+
+
+/* Primeira Section */
+
+#atalho-projetos {
+    padding: 8%;
+}
+
+.titulos {
+    padding: 1%;
+}
+
+/* Botão */
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+
+/* Logos tech */
+
+#logos-tech {
+    padding-bottom: 2%;
+}
+
+footer {
+    padding: 10px;
+}
+
+/* Segunda Section */
+/*
+#sobre {
+    padding-bottom: 5%;
+}*/
+
+.xp,
+#atalho-projetos,
+#logos-tech,
+footer {
+    text-align: center;
+}
+
+/* Terceira Section */
+
+.experiencias,
+.outras-experiencias {
+    padding-bottom: 10%;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    gap: 20px;
+}
+
+/* Quarta Section */
+
+
+/* #820AD1 roxo
+#2F0549 outro roxo
+#111111 preto
+section .experiencias .container .uk-card-title*/

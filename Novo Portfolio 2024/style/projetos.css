@@ -1,0 +1,29 @@
+/* Quinta Section */
+.projetos {
+    padding: 4%;
+}
+
+.projetos .titulos {
+    text-align: center;
+}
+
+.projetos .titulos h4 {
+    padding-top: 5%;
+    text-align: start;
+}
+
+.projetos .titulos h3 {
+    font-size: 16px;
+}
+
+.meus-projetos {
+    display: flex;
+    justify-content: center; /* Distribui os itens com espaçamento entre eles */
+    flex-wrap: wrap;
+}
+
+.card-projeto {
+    width: calc(50% - 10px); /* Largura dos cards */
+    padding-bottom: 1%; /* Espaço entre os cards verticalmente (em relação à altura do próprio card) */
+    margin-right: -22%; /* Espaço entre os cards horizontalmente */
+}
