@@ -11,18 +11,19 @@ body {
 .navbar-custom,
 .dropdown-menu,
 .cta-button,
-.experiencias, 
-.experiencias .uk-card-badge
+.outras-experiencias,
+.outras-experiencias .uk-card-badge,
 footer {
     background-color: rgb(130, 10, 209);
 }
 
 h3,
 #sobre h3,
-section .experiencias .container h3,
+section .outras-experiencias .uk-card-title,
 .projetos .titulos h4,
 span.aviso,
-.uk-card-footer a:hover {
+.uk-card-footer a:hover,
+.soft-skills h5 {
     color: rgb(130, 10, 209);
 }
 
@@ -34,24 +35,28 @@ span.aviso,
 .outras-experiencias,
 h4,
 .xp,
+.stack h2,
+.soft-skills h5:hover,
+.soft-skills p,
 footer {
     color: rgb(255, 255, 255);
 }
 
-section .outras-experiencias .container h3,
+section .experiencias .uk-card-title,
 .projetos .titulos h3 {
     color: rgb(47, 5, 73);
 }
 
-.outras-experiencias,
-.outras-experiencias .uk-card-badge {
+.experiencias,
+.experiencias .uk-card-badge {
     background-color: rgb(47, 5, 73);
 }
 
 
 /* Primeira Section */
 
-#atalho-projetos {
+#atalho-projetos,
+#stack {
     padding: 8%;
 }
 
@@ -88,7 +93,8 @@ footer {
 .xp,
 #atalho-projetos,
 #logos-tech,
-footer {
+footer,
+.stack h2 {
     text-align: center;
 }
 
@@ -96,7 +102,7 @@ footer {
 
 .experiencias,
 .outras-experiencias {
-    padding-bottom: 10%;
+    padding-bottom: 8%;
 }
 
 .container {

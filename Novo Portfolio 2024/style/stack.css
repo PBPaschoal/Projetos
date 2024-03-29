@@ -1,0 +1,65 @@
+.stack-imagens {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.imagem-logo {
+    border-radius: 35px;
+    background-color: rgb(47, 5, 73);
+    padding: 25px;
+}
+
+.imagem-logo:hover {
+    transition: 0.8s;
+    background-color: rgb(130, 10, 209);
+    border-radius: 12px;
+}
+
+.imagem-logo img {
+    width: 80px;
+}
+
+.sql-img img {
+    width: 100px;
+}
+
+.imagem-logo figcaption {
+    /*display: none;*/
+    opacity: 0;
+    /*padding-bottom: 1px;*/
+    font-size: 10px;
+}
+
+.imagem-logo:hover figcaption {
+    /*display: block;*/
+    transition: opacity 0.8s ease;
+    opacity: 1;
+}
+
+.stack-imagens figcaption {
+    color: rgb(255, 255, 255);
+}
+/*
+section .stack {
+    padding-top: 15px;
+    padding-bottom: 300px;
+    border-radius: 20px;
+    background-color: rgb(12, 12, 12);
+}*/
+
+.stack  h2 {
+    padding-bottom: 5%;
+}
+
+.soft h2 {
+    padding-top: 8%;
+}
+
+.stack {
+    background-color: rgb(22, 22, 22);
+}
