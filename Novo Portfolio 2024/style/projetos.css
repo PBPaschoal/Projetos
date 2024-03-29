@@ -27,11 +27,11 @@
 
 .div-container-card-projetos {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
     text-align: center;
-    gap: 50x;
+    gap: 30px;
 }
 
 .custom-card-title h3 {
