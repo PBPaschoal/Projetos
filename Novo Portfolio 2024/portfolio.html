@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="/style/style.css">
   <link rel="stylesheet" href="/style/projetos.css">
   <link rel="stylesheet" href="/style/stack.css">
+  <link rel="stylesheet" href="/style/estudos.css">
 </head>
 
 <body>
@@ -87,16 +88,15 @@
       <a href="" class="cta-button">Ver projetos</a><br>
     </section>
 
-    <!-- Segunda Setcion -->
     <section id="sobre">
-      <div>
-        <div class="uk-child-width-1-2 uk-child-width-1-1@s uk-grid-match" uk-grid>
+      <div class="uk-child-width-expand@s uk-grid-match" uk-grid>
+        <div>
           <div class="uk-animation-toggle" tabindex="0">
             <div class="uk-card uk-card-default uk-card-body uk-animation-slide-left-small">
               <!-- Card Imagem -->
-              <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+              <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s" uk-grid>
                 <div class="uk-card-media-left uk-cover-container">
-                  <img src="/img/eu/Eu.png " alt="" uk-cover>
+                  <img src="/img/eu/Eu.png" alt="" uk-cover>
                   <canvas width="600" height="400"></canvas>
                 </div>
                 <div>
@@ -125,6 +125,8 @@
               <!-- Fim Card Imagem-->
             </div>
           </div>
+        </div>
+      </div>
     </section>
 
     <!-- Terceira Setcion -->
@@ -921,7 +923,8 @@
           <!-- Card Certificado 01 -->
           <div class="card-curso">
             <div class="imagem-logo-curso">
-              <img src="/img/certificados e cursos/harvard-cs50-estudar-na-pratica.webp" alt="Logo Harvard e Estudar Na Pratica">
+              <img src="/img/certificados e cursos/harvard-cs50-estudar-na-pratica.webp"
+                alt="Logo Harvard e Estudar Na Pratica">
             </div>
             <div>
               <h6>Ciência da Computação CC50</h6>
@@ -994,6 +997,172 @@
       </div>
     </section>
 
+    <!-- Oitava Section -->
+    <section id="estudos">
+      <div class="estudos">
+        <div class="titulos">
+          <h2>Estudos</h2>
+          <h6>Revisando</h6>
+        </div>
+        <div class="meus-estudos-container">
+          <!-- Imagem Grade de Estudos 01 -->
+          <div class="grade-de-estudos">
+            <figure class="imagem-grade">
+              <img src="/img/estudos/Evolução-CSharp.webp" alt="Revisando estudos em C#" onclick="openModal(this.src)">
+              <figcaption>
+                <p>Curso concluido em 2020 - Revisando curso e demais conteudos sobre a linguagem, agora em 2024.</p>
+                <cite>PBPaschoal C#</cite>
+              </figcaption>
+            </figure>
+          </div>
+          <!-- Fim -->
+          <!-- Imagem Grade de Estudos 02 -->
+          <div class="grade-de-estudos">
+            <figure class="imagem-grade">
+              <img src="/img/estudos/Evolução Java.webp" alt="Revisando estudos em Java" onclick="openModal(this.src)">
+              <figcaption>
+                <p>Revisando curso e demais conteudos sobre a linguagem, agora em 2024.</p>
+                <cite>PBPaschoal Java</cite>
+              </figcaption>
+            </figure>
+          </div>
+          <!-- Fim -->
+        </div>
+        <!-- Modal -->
+        <div id="myModal" class="modal">
+          <span class="close" onclick="closeModal()">&times;</span>
+          <img class="modal-content" id="modalImg">
+        </div>
+        <!-- Fim Modal -->
+        <div class="titulos">
+          <h6>Leituras:</h6>
+        </div>
+        <div class="livros-apostilas-leituras-container">
+          <!-- Meu Livro -->
+          <div class="card-group">
+            <div class="card">
+              <img src="/img/livros/livro-codigo-limpo.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Código Limpo</h5>
+                <p class="card-text">O livro destaca a importância nos nomes, clareza no código, a organização,
+                  competência e muitas outras formas de como estruturar o nossos projetos.</p>
+                <p class="card-text"><small class="text-body-secondary">Leitura Ativa - Abril 2024</small></p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="/img/livros/livro-algoritmos-e-estruturas-de-dados.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Algoritmos e Estruturas de Dados</h5>
+                <p class="card-text">Acho extremamente importante a lógica de programação. Sem ela, nos perdemos e não
+                  conseguimos concluir nossas tarefas, ou elas são mal executadas. Por isso, reviso cursos e livros
+                  sobre o assunto.</p>
+                <p class="card-text"><small class="text-body-secondary">Leitura Ativa - Abril 2024</small></p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="/img/livros/livro-algoritmos.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Algoritmos</h5>
+                <p class="card-text">Tanto este quanto o anterior são bastante úteis devido às explicações e exercícios
+                  propostos, que nos permitem praticar e aprimorar nosso raciocínio.</p>
+                <p class="card-text"><small class="text-body-secondary">Leitura Ativa - Abril 2024</small></p>
+              </div>
+            </div>
+          </div>
+          <!-- Fim Livro -->
+          <!-- Meu Livro -->
+          <div class="card-group">
+            <div class="card">
+              <img src="/img/livros/livro-use-a-cabeça-csharp.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Use a Cabeça C#</h5>
+                <p class="card-text">Quem me conhece sabe que amo C#. Estou ansioso para começar esse livro..</p>
+                <p class="card-text"><small class="text-body-secondary">Próxima leitura</small></p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="/img/livros/documentaçao-csharp.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Documentação do C#</h5>
+                <p class="card-text">Me especializar na linguagem C#.</p>
+                <p class="card-text"><small class="text-body-secondary">Próxima leitura</small></p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="/img/livros/livro-use-a-cabeça-sql.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Use a Cabeça SQL</h5>
+                <p class="card-text">SQL é mais uma das linguagens que eu adoro! É importantíssimo dominar essa
+                  tecnologia. Achei sensacional o pouco que já vi sobre ela, estou ansioso para começar este livro!</p>
+                <p class="card-text"><small class="text-body-secondary">Próxima leitura</small></p>
+              </div>
+            </div>
+          </div>
+          <!-- Fim Livro -->
+          <!-- Meu Livro -->
+          <div class="card-group">
+            <div class="card">
+              <img src="/img/livros/livro-java-guia-do-programador.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Java Guia do Programador</h5>
+                <p class="card-text">Quero me especializar em Java, C# e SQL! Por isso estou estudando um curso após o
+                  outro sobre essas tecnologias. O livro pode ser uma versão antiga, mas vale a pena!</p>
+                <p class="card-text"><small class="text-body-secondary">Próxima leitura</small></p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="/img/livros/livro-python.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Introdução a Programação com Python</h5>
+                <p class="card-text">Python é uma tecnologia poderosa e que vale a pena aprender. Não me ache exagerado,
+                  mas eu a dominarei também!</p>
+                <p class="card-text"><small class="text-body-secondary">Próxima leitura</small></p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="/img/livros/livro-use-a-cabeça-javascript.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Use a Cabeça JavaScript</h5>
+                <p class="card-text">Linguagem bastante popular e poderosa. Não posso deixar de aprender assim que for
+                  possível.</p>
+                <p class="card-text"><small class="text-body-secondary">Próxima leitura</small></p>
+              </div>
+            </div>
+          </div>
+          <!-- Fim Livro -->
+          <!-- Meu Livro -->
+          <div class="card-group">
+            <div class="card">
+              <img src="/img/livros/livro-cplusplus-para-leigos.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">C++ Para Leigos</h5>
+                <p class="card-text">Quando comecei a estudar programação, o primeiro curso que fiz foi de C++. Adorei!
+                  Pretendo revisar com este livro, pois é simples de entender. E como pretendo desenvolver meu próprio
+                  jogo um dia, por diversão, ele será bastante útil!</p>
+                <p class="card-text"><small class="text-body-secondary">Próxima leitura</small></p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="/img/livros/documentaçao-csharp.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Documentação do C#</h5>
+                <p class="card-text">Me especializar na linguagem C#.</p>
+                <p class="card-text"><small class="text-body-secondary">Próxima leitura</small></p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="/img/livros/livro-html5-e-css3.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Fundamentos de HTML5 e CSS3</h5>
+                <p class="card-text">Eu já tenho conhecimento em HTML e CSS, mas com esse livro irei aperfeiçoar-me.</p>
+                <p class="card-text"><small class="text-body-secondary">Leitura Ativa - Abril 2024</small></p>
+              </div>
+            </div>
+            <!-- Fim Livro -->
+          </div>
+        </div>
+    </section>
+
     <section id="logos-tech">
       <div style="display: inline_block"><br>
         <img align="center" alt="PB-Csharp" height="35" width="45"
@@ -1020,10 +1189,21 @@
       </div>
     </section>
   </main>
-  <footer>© V3.0 2024 PBPaschoal.</footer>
-
+  <footer id="contatos">
+    <h5>Contatos:</h5>
+    <div class="footer-contatos-container">
+      <div>© V4.0 2024 PBPaschoal.</div>
+      <div class="redes-sociais-contatos">
+        <p>Telefone: <a href="">+55 21 99921-1992</a></p>
+        <p>E-mail: <a href="">pb.paschoal@gmail.com</a></p>
+        <p>Linkedin: <a href="">PBPaschoal</a></p>
+        <p>GitHub: <a href="">PBPaschoal</a></p>
+      </div>
+    </div>
+  </footer>
   <script src="/js/bootstrap.bundle.min.js"></script>
   <script src="/js/uikit.min.js"></script>
+  <script src="/js/estudos.js"></script>
 </body>
 
 </html>

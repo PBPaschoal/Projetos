@@ -24,7 +24,8 @@ section .outras-experiencias .uk-card-title,
 span.aviso,
 .uk-card-footer a:hover,
 .soft-skills h5,
-.meus-cursos h2 {
+.meus-cursos h2,
+.card-title {
     color: rgb(130, 10, 209);
 }
 
@@ -39,18 +40,25 @@ h4,
 .stack h2,
 .soft-skills h5:hover,
 .soft-skills p,
-footer {
+#estudos h2,
+figcaption,
+.estudos .titulos h6,
+.stack-imagens figcaption,
+footer,
+footer h5 {
     color: rgb(255, 255, 255);
 }
 
 section .experiencias .uk-card-title,
 .projetos .titulos h3,
-.card-curso h6 {
+.card-curso h6,
+.card-title:hover {
     color: rgb(47, 5, 73);
 }
 
 .experiencias,
-.experiencias .uk-card-badge {
+.experiencias .uk-card-badge,
+#estudos {
     background-color: rgb(47, 5, 73);
 }
 
@@ -59,7 +67,8 @@ section .experiencias .uk-card-title,
 
 #atalho-projetos,
 #stack,
-#cursos {
+#cursos,
+#estudos {
     padding: 8%;
 }
 
@@ -80,7 +89,8 @@ section .experiencias .uk-card-title,
 /* Logos tech */
 
 #logos-tech,
-.meus-cursos h2 {
+.meus-cursos h2,
+#estudos h2 {
     padding-bottom: 2%;
 }
 
@@ -99,7 +109,8 @@ footer {
 #logos-tech,
 footer,
 .stack h2,
-.meus-cursos h2 {
+.meus-cursos h2,
+#estudos h2 {
     text-align: center;
 }
 
@@ -111,7 +122,10 @@ footer,
 }
 
 .container,
-.certificados-container {
+.certificados-container,
+.meus-estudos-container,
+.footer-contatos-container,
+.livros-apostilas-leituras-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -161,8 +175,34 @@ section .experiencias .container .uk-card-title*/
     box-shadow: 0 0 12px rgba(130, 10, 209, 0.4);
 }
 
-.card-curso h6 {
+.card-curso h6,
+.estudos .titulos h6 {
     padding-top: 5px;
     text-align: center;
     font-size: 16px;
+}
+
+/* Footer */
+
+.redes-sociais-contatos {
+    padding: 50px;
+    font-size: 20px;
+}
+
+.footer-contatos-container {
+    gap: 80px;
+}
+
+.redes-sociais-contatos a {
+    color: rgb(0, 255, 255);
+}
+
+.redes-sociais-contatos a:hover {
+    color: rgb(255, 0, 242);
+    
+}
+
+footer h5 {
+    padding-top: 50px;
+    font-size: 25px;
 }
