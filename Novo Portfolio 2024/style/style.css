@@ -11,6 +11,7 @@ body {
 .navbar-custom,
 .dropdown-menu,
 .cta-button,
+.botao-mais-certificados button,
 .outras-experiencias,
 .outras-experiencias .uk-card-badge,
 footer {
@@ -33,6 +34,7 @@ span.aviso,
 .navbar-custom .navbar-nav .nav-link,
 .dropdown-menu a,
 .cta-button,
+.botao-mais-certificados button a,
 .experiencias,
 .outras-experiencias,
 h4,
@@ -44,6 +46,7 @@ h4,
 figcaption,
 .estudos .titulos h6,
 .stack-imagens figcaption,
+.cta-button:hover,
 footer,
 footer h5 {
     color: rgb(255, 255, 255);
@@ -58,6 +61,8 @@ section .experiencias .uk-card-title,
 
 .experiencias,
 .experiencias .uk-card-badge,
+.cta-button:hover,
+.botao-mais-certificados button:hover,
 #estudos {
     background-color: rgb(47, 5, 73);
 }
@@ -78,7 +83,8 @@ section .experiencias .uk-card-title,
 
 /* Botão */
 
-.cta-button {
+.cta-button,
+.botao-mais-certificados button {
     display: inline-block;
     padding: 10px 20px;
     text-decoration: none;
@@ -110,6 +116,7 @@ footer {
 footer,
 .stack h2,
 .meus-cursos h2,
+.botao-mais-certificados,
 #estudos h2 {
     text-align: center;
 }
@@ -182,6 +189,27 @@ section .experiencias .container .uk-card-title*/
     font-size: 16px;
 }
 
+/* Estilos para o botÃ£o flutuante */
+#scrollToTopButton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgb(130, 10, 209);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+    /* Inicialmente oculto */
+}
+
+#scrollToTopButton:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(130, 10, 209);
+}
+
+
 /* Footer */
 
 .redes-sociais-contatos {
@@ -199,10 +227,26 @@ section .experiencias .container .uk-card-title*/
 
 .redes-sociais-contatos a:hover {
     color: rgb(255, 0, 242);
-    
+
 }
 
 footer h5 {
     padding-top: 50px;
     font-size: 25px;
+}
+
+/* OUTRAS */
+@media (max-width: 768px) {
+    #atalho-projetos .titulos h1 {
+        font-size: 20px;
+    }
+
+    #atalho-projetos .titulos h2 {
+        font-size: 18px;
+    }
+
+    #atalho-projetos .titulos h3 {
+        font-size: 14px;
+    }
+
 }

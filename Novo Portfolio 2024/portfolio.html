@@ -16,6 +16,7 @@
 
 <body>
   <header>
+    <button id="scrollToTopButton">Subir | Topo</button>
     <nav class="navbar navbar-expand-lg navbar-custom">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">PBPaschoal</a>
@@ -47,7 +48,7 @@
               <a class="nav-link" href="#estudos">Estudos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#stack">Mais certificados</a>
+              <a class="nav-link" href="#mais-certificados">Mais certificados</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -55,8 +56,8 @@
                 Downloads
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Curriculo (com foto)</a></li>
-                <li><a class="dropdown-item" href="#">Curriculo (sem foto)</a></li>
+                <li><a class="dropdown-item" href="/Download/Curriculo Paulo Bruno Paschoal(com foto).pdf" download="Curriculo Paulo Bruno Paschoal(com foto).pdf">Curriculo (com foto)</a></li>
+                <li><a class="dropdown-item" href="/Download/Curriculo Paulo Bruno Paschoal(com foto).pdf" download="Curriculo Paulo Bruno Paschoal(sem  foto).pdf">Curriculo (sem foto)</a></li>
               </ul>
             </li>
             <li class="nav-item">
@@ -85,7 +86,7 @@
           src="https://github-readme-stats.vercel.app/api/top-langs/?username=pbpaschoal&layout=compact&langs_count=16&theme=radical" />
       </div>
 
-      <a href="" class="cta-button">Ver projetos</a><br>
+      <a href="#projetos" class="cta-button">Ver projetos</a><br>
     </section>
 
     <section id="sobre">
@@ -96,7 +97,7 @@
               <!-- Card Imagem -->
               <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s" uk-grid>
                 <div class="uk-card-media-left uk-cover-container">
-                  <img src="/img/eu/Eu.png" alt="" uk-cover>
+                  <img src="/img/eu/eu-anime.jpg" alt="Minha foto" uk-cover>
                   <canvas width="600" height="400"></canvas>
                 </div>
                 <div>
@@ -314,7 +315,7 @@
         <div class="titulos">
           <h2>Projetos</h2>
           <h2><span class="aviso">Aviso:</span> Em processo de atualização.</h2>
-          <h3>Última atualização: 28-03-2024 às 14:11hrs</h3>
+          <h3>Última atualização: 30-03-2024 às 17:00hrs</h3>
         </div>
         <div class="titulos">
           <h4>B a c k - e n d:</h4>
@@ -358,7 +359,7 @@
               </div>
             </div>
             <div class="custom-card-body">
-              <p>Sorteio automatico para vagas no condominio.</p>
+              <p>Sorteio automático para vagas no condomínio.</p>
             </div>
             <div class="custom-card-footer">
               <a href="#" class="custom-card-link">MAIS INFORMAÇÕES</a>
@@ -378,7 +379,7 @@
               </div>
             </div>
             <div class="custom-card-body">
-              <p>Um site para divulgar os serviços do veterinario na internet.</p>
+              <p>Um site para divulgar os serviços do veterinário na internet.</p>
             </div>
             <div class="custom-card-footer">
               <a href="#" class="custom-card-link">MAIS INFORMAÇÕES</a>
@@ -438,7 +439,7 @@
               </div>
             </div>
             <div class="custom-card-body">
-              <p>Personal treiner. Divulgação na internet para o serviço de treinador.</p>
+              <p>Personal trainer. Divulgação na internet para o serviço de treinador.</p>
             </div>
             <div class="custom-card-footer">
               <a href="#" class="custom-card-link">MAIS INFORMAÇÕES</a>
@@ -994,6 +995,9 @@
           </div>
           <!-- Fim -->
         </div>
+        <div class="botao-mais-certificados">
+          <button><a href="https://www.linkedin.com/in/pbpaschoal/details/certifications/" target="_blank">Mais certificados</a></button>
+        </div>
       </div>
     </section>
 
@@ -1041,7 +1045,7 @@
           <!-- Meu Livro -->
           <div class="card-group">
             <div class="card">
-              <img src="/img/livros/livro-codigo-limpo.webp" class="card-img-top" alt="...">
+              <img src="/img/livros/livro-codigo-limpo.webp" class="card-img-top" alt="Capa Livro Código Limpo">
               <div class="card-body">
                 <h5 class="card-title">Código Limpo</h5>
                 <p class="card-text">O livro destaca a importância nos nomes, clareza no código, a organização,
@@ -1050,7 +1054,8 @@
               </div>
             </div>
             <div class="card">
-              <img src="/img/livros/livro-algoritmos-e-estruturas-de-dados.webp" class="card-img-top" alt="...">
+              <img src="/img/livros/livro-algoritmos-e-estruturas-de-dados.webp" class="card-img-top"
+                alt="Capa Livro Algoritmos e Estruturas de Dados">
               <div class="card-body">
                 <h5 class="card-title">Algoritmos e Estruturas de Dados</h5>
                 <p class="card-text">Acho extremamente importante a lógica de programação. Sem ela, nos perdemos e não
@@ -1060,7 +1065,7 @@
               </div>
             </div>
             <div class="card">
-              <img src="/img/livros/livro-algoritmos.webp" class="card-img-top" alt="...">
+              <img src="/img/livros/livro-algoritmos.webp" class="card-img-top" alt="Capa Livro Algoritmos">
               <div class="card-body">
                 <h5 class="card-title">Algoritmos</h5>
                 <p class="card-text">Tanto este quanto o anterior são bastante úteis devido às explicações e exercícios
@@ -1073,15 +1078,16 @@
           <!-- Meu Livro -->
           <div class="card-group">
             <div class="card">
-              <img src="/img/livros/livro-use-a-cabeça-csharp.webp" class="card-img-top" alt="...">
+              <img src="/img/livros/livro-use-a-cabeça-csharp.webp" class="card-img-top"
+                alt="Capa Livro Use a Cabeça C#">
               <div class="card-body">
                 <h5 class="card-title">Use a Cabeça C#</h5>
-                <p class="card-text">Quem me conhece sabe que amo C#. Estou ansioso para começar esse livro..</p>
+                <p class="card-text">Quem me conhece sabe que amo C#. Estou ansioso para começar esse livro.</p>
                 <p class="card-text"><small class="text-body-secondary">Próxima leitura</small></p>
               </div>
             </div>
             <div class="card">
-              <img src="/img/livros/documentaçao-csharp.webp" class="card-img-top" alt="...">
+              <img src="/img/livros/documentaçao-csharp.webp" class="card-img-top" alt="Print Documentação C#">
               <div class="card-body">
                 <h5 class="card-title">Documentação do C#</h5>
                 <p class="card-text">Me especializar na linguagem C#.</p>
@@ -1089,7 +1095,7 @@
               </div>
             </div>
             <div class="card">
-              <img src="/img/livros/livro-use-a-cabeça-sql.webp" class="card-img-top" alt="...">
+              <img src="/img/livros/livro-use-a-cabeça-sql.webp" class="card-img-top" alt="Capa Livro Use a Cabela SQL">
               <div class="card-body">
                 <h5 class="card-title">Use a Cabeça SQL</h5>
                 <p class="card-text">SQL é mais uma das linguagens que eu adoro! É importantíssimo dominar essa
@@ -1102,7 +1108,8 @@
           <!-- Meu Livro -->
           <div class="card-group">
             <div class="card">
-              <img src="/img/livros/livro-java-guia-do-programador.webp" class="card-img-top" alt="...">
+              <img src="/img/livros/livro-java-guia-do-programador.webp" class="card-img-top"
+                alt="Capa Livro Java Guia do Programador">
               <div class="card-body">
                 <h5 class="card-title">Java Guia do Programador</h5>
                 <p class="card-text">Quero me especializar em Java, C# e SQL! Por isso estou estudando um curso após o
@@ -1111,7 +1118,8 @@
               </div>
             </div>
             <div class="card">
-              <img src="/img/livros/livro-python.webp" class="card-img-top" alt="...">
+              <img src="/img/livros/livro-python.webp" class="card-img-top"
+                alt="Capa Livro Introdução a Programação com Python">
               <div class="card-body">
                 <h5 class="card-title">Introdução a Programação com Python</h5>
                 <p class="card-text">Python é uma tecnologia poderosa e que vale a pena aprender. Não me ache exagerado,
@@ -1120,7 +1128,8 @@
               </div>
             </div>
             <div class="card">
-              <img src="/img/livros/livro-use-a-cabeça-javascript.webp" class="card-img-top" alt="...">
+              <img src="/img/livros/livro-use-a-cabeça-javascript.webp" class="card-img-top"
+                alt="Capa Livro Use a Cabeça JavaScript">
               <div class="card-body">
                 <h5 class="card-title">Use a Cabeça JavaScript</h5>
                 <p class="card-text">Linguagem bastante popular e poderosa. Não posso deixar de aprender assim que for
@@ -1133,7 +1142,8 @@
           <!-- Meu Livro -->
           <div class="card-group">
             <div class="card">
-              <img src="/img/livros/livro-cplusplus-para-leigos.webp" class="card-img-top" alt="...">
+              <img src="/img/livros/livro-cplusplus-para-leigos.webp" class="card-img-top"
+                alt="Capa Livro C++ Para Leigos">
               <div class="card-body">
                 <h5 class="card-title">C++ Para Leigos</h5>
                 <p class="card-text">Quando comecei a estudar programação, o primeiro curso que fiz foi de C++. Adorei!
@@ -1143,24 +1153,193 @@
               </div>
             </div>
             <div class="card">
-              <img src="/img/livros/documentaçao-csharp.webp" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Documentação do C#</h5>
-                <p class="card-text">Me especializar na linguagem C#.</p>
-                <p class="card-text"><small class="text-body-secondary">Próxima leitura</small></p>
-              </div>
-            </div>
-            <div class="card">
-              <img src="/img/livros/livro-html5-e-css3.webp" class="card-img-top" alt="...">
+              <img src="/img/livros/livro-html5-e-css3.webp" class="card-img-top" alt="Capa Livro HTML5 e CSS3">
               <div class="card-body">
                 <h5 class="card-title">Fundamentos de HTML5 e CSS3</h5>
                 <p class="card-text">Eu já tenho conhecimento em HTML e CSS, mas com esse livro irei aperfeiçoar-me.</p>
                 <p class="card-text"><small class="text-body-secondary">Leitura Ativa - Abril 2024</small></p>
               </div>
             </div>
-            <!-- Fim Livro -->
+          </div>
+          <!-- Fim Livro -->
+          <!-- Minhas Apostilas -->
+          <div class="card-group">
+            <div class="card">
+              <img src="/img/livros/algortimos.webp" class="card-img-top" alt="Apostila Algoritmos">
+              <div class="card-body">
+                <h5 class="card-title">Algoritmos</h5>
+                <p class="card-text">Apostila - Época da faculdade: Revisar.</p>
+                <p class="card-text"><small class="text-body-secondary">Próxima leitura: revisar</small></p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="/img/livros/fundamentos-de-sistemas-de-informação.webp" class="card-img-top"
+                alt="Apostila Fundamentos de Sistemas de Informação">
+              <div class="card-body">
+                <h5 class="card-title">Fundamentos de Sistemas de Informação</h5>
+                <p class="card-text">Apostila - Época da faculdade: Revisar.</p>
+                <p class="card-text"><small class="text-body-secondary">Próxima leitura: revisar</small></p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="/img/livros/organização-de-computadores.webp" class="card-img-top"
+                alt="Apostila Organização de Computadores">
+              <div class="card-body">
+                <h5 class="card-title">Organização de Computadores</h5>
+                <p class="card-text">Apostila - Época da faculdade: Revisar.</p>
+                <p class="card-text"><small class="text-body-secondary">Próxima leitura: revisar</small></p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="/img/livros/tecnologia-da-informação-e-da-comunicação.webp" class="card-img-top"
+                alt="Apostila Tecnologia da Informação e da Comunicação">
+              <div class="card-body">
+                <h5 class="card-title">Tecnologia da Informação e da Comunicação</h5>
+                <p class="card-text">Apostila - Época da faculdade: Revisar.</p>
+                <p class="card-text"><small class="text-body-secondary">Próxima leitura: revisar</small></p>
+              </div>
+            </div>
+          </div>
+          <!-- Fim Apostilas -->
+          <!-- Minhas Apostilas -->
+          <div class="card-group">
+            <div class="card">
+              <img src="/img/livros/matematica-aplicada-a-computação.webp" class="card-img-top"
+                alt="Apostila Matemática Computacional">
+              <div class="card-body">
+                <h5 class="card-title">Matemática Computacional</h5>
+                <p class="card-text">Apostila - Época da faculdade: Revisar.</p>
+                <p class="card-text"><small class="text-body-secondary">Próxima leitura: revisar</small></p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="/img/livros/processos-de-desenvolvimento-de-software.webp" class="card-img-top"
+                alt="Apostila Processos de Desenvolvimento de Software">
+              <div class="card-body">
+                <h5 class="card-title">Processos de Desenvolvimento de Software</h5>
+                <p class="card-text">Apostila - Época da faculdade: Revisar.</p>
+                <p class="card-text"><small class="text-body-secondary">Próxima leitura: revisar</small></p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="/img/livros/sistemas-operacionais.webp" class="card-img-top"
+                alt="Apostila Sistemas Operacionais">
+              <div class="card-body">
+                <h5 class="card-title">Sistemas Operacionais</h5>
+                <p class="card-text">Apostila - Época da faculdade: Revisar.</p>
+                <p class="card-text"><small class="text-body-secondary">Próxima leitura: revisar</small></p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="/img/livros/tecnologias-web.webp" class="card-img-top" alt="Apostila Tecnologias Web">
+              <div class="card-body">
+                <h5 class="card-title">Tecnologias Web</h5>
+                <p class="card-text">Apostila - Época da faculdade: Revisar.</p>
+                <p class="card-text"><small class="text-body-secondary">Próxima leitura: revisar</small></p>
+              </div>
+            </div>
+          </div>
+          <!-- Minhas Apostilas -->
+          <div class="card-group">
+            <div class="card">
+              <img src="/img/livros/governança-em-tecnologia-da-informação.webp" class="card-img-top"
+                alt="Apostila Governança em Tecnologia da Informação">
+              <div class="card-body">
+                <h5 class="card-title">Governança em Tecnologia da Informação</h5>
+                <p class="card-text">Apostila - Época da faculdade: Revisar.</p>
+                <p class="card-text"><small class="text-body-secondary">Próxima leitura: revisar</small></p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="/img/livros/inovação-tecnologica.webp" class="card-img-top" alt="Inovação Tecnológica">
+              <div class="card-body">
+                <h5 class="card-title">Inovação Tecnológica</h5>
+                <p class="card-text">Apostila - Época da faculdade: Revisar.</p>
+                <p class="card-text"><small class="text-body-secondary">Próxima leitura: revisar</small></p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="/img/livros/linguagem-de-progamaçao.webp" class="card-img-top"
+                alt="Apostila Linguagem de Programação">
+              <div class="card-body">
+                <h5 class="card-title">Linguagem de Programação</h5>
+                <p class="card-text">Apostila - Época da faculdade: Revisar.</p>
+                <p class="card-text"><small class="text-body-secondary">Próxima leitura: revisar</small></p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="/img/livros/redes-de-computadores.webp" class="card-img-top"
+                alt="Apostila Redes de Computadores">
+              <div class="card-body">
+                <h5 class="card-title">Redes de Computadores</h5>
+                <p class="card-text">Apostila - Época da faculdade: Revisar.</p>
+                <p class="card-text"><small class="text-body-secondary">Próxima leitura: revisar</small></p>
+              </div>
+            </div>
+          </div>
+          <!-- Fim Apostilas -->
+          <!-- Minhas Apostilas -->
+          <div class="card-group">
+            <div class="card">
+              <img src="/img/livros/gestao-de-projetos-para-ti.webp" class="card-img-top"
+                alt="Apostila Gestão de Projetos Para T.I">
+              <div class="card-body">
+                <h5 class="card-title">Gestão de Projetos Para T.I</h5>
+                <p class="card-text">Apostila - Época da faculdade: Revisar.</p>
+                <p class="card-text"><small class="text-body-secondary">Próxima leitura: revisar</small></p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="/img/livros/modelagem-de-sistemas.webp" class="card-img-top" alt="Modelagem de Sistemas">
+              <div class="card-body">
+                <h5 class="card-title">Modelagem de Sistemas</h5>
+                <p class="card-text">Apostila - Época da faculdade: Revisar.</p>
+                <p class="card-text"><small class="text-body-secondary">Próxima leitura: revisar</small></p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="/img/livros/desenvolvimento-de-software.webp" class="card-img-top"
+                alt="Apostila Desenvolvimento de Software">
+              <div class="card-body">
+                <h5 class="card-title">Desenvolvimento de Software</h5>
+                <p class="card-text">Apostila - Época da faculdade: Revisar.</p>
+                <p class="card-text"><small class="text-body-secondary">Próxima leitura: revisar</small></p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="/img/livros/engenharia-de-usabilidade.webp" class="card-img-top"
+                alt="Apostila Engenharia de Usabilidade">
+              <div class="card-body">
+                <h5 class="card-title">Engenharia de Usabilidade</h5>
+                <p class="card-text">Apostila - Época da faculdade: Revisar.</p>
+                <p class="card-text"><small class="text-body-secondary">Próxima leitura: revisar</small></p>
+              </div>
+            </div>
+          </div>
+          <!-- Fim Apostilas -->
+          <!-- Minhas Apostilas -->
+          <div class="card-group">
+            <div class="card">
+              <img src="/img/livros/gestão-de-segurança-da-informação.webp" class="card-img-top"
+                alt="Apostila Gestão de Segurança da Informação">
+              <div class="card-body">
+                <h5 class="card-title">Gestão de Segurança da Informação</h5>
+                <p class="card-text">Apostila - Época da faculdade: Revisar.</p>
+                <p class="card-text"><small class="text-body-secondary">Próxima leitura: revisar</small></p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="/img/livros/modelagem-de-dados.webp" class="card-img-top" alt="Modelagem de dados">
+              <div class="card-body">
+                <h5 class="card-title">Modelagem de dados</h5>
+                <p class="card-text">Apostila - Época da faculdade: Revisar.</p>
+                <p class="card-text"><small class="text-body-secondary">Próxima leitura: revisar</small></p>
+              </div>
+            </div>
           </div>
         </div>
+        <!-- Fim Apostilas -->
+      </div>
     </section>
 
     <section id="logos-tech">
@@ -1194,15 +1373,16 @@
     <div class="footer-contatos-container">
       <div>© V4.0 2024 PBPaschoal.</div>
       <div class="redes-sociais-contatos">
-        <p>Telefone: <a href="">+55 21 99921-1992</a></p>
-        <p>E-mail: <a href="">pb.paschoal@gmail.com</a></p>
-        <p>Linkedin: <a href="">PBPaschoal</a></p>
-        <p>GitHub: <a href="">PBPaschoal</a></p>
+        <p>Telefone: <a href="https://api.whatsapp.com/send/?phone=5521999211992&text&type=phone_number&app_absent=0" target="_blank">+55 21 99921-1992</a></p>
+        <p>E-mail: <a href="mailto:pb.paschoal@gmail.com">pb.paschoal@gmail.com</a></p>
+        <p>Linkedin: <a href="https://www.linkedin.com/in/pbpaschoal/" target="_blank">PBPaschoal</a></p>
+        <p>GitHub: <a href="https://github.com/PBPaschoal" target="_blank">PBPaschoal</a></p>
       </div>
     </div>
   </footer>
   <script src="/js/bootstrap.bundle.min.js"></script>
   <script src="/js/uikit.min.js"></script>
+  <script src="/js/botao.js"></script>
   <script src="/js/estudos.js"></script>
 </body>
 
