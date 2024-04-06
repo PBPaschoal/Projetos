@@ -145,7 +145,6 @@ footer,
 
 /* Quarta Section */
 
-
 /* #820AD1 roxo
 #2F0549 outro roxo
 #111111 preto
@@ -178,8 +177,9 @@ section .experiencias .container .uk-card-title*/
     height: 238px;
 }
 
-.card-curso:hover {
-    box-shadow: 0 0 12px rgba(130, 10, 209, 0.4);
+.card-curso:hover,
+.custom-card:hover {
+    box-shadow: 0 0 12px rgba(25, 0, 39, 0.527);
 }
 
 .card-curso h6,
@@ -201,6 +201,7 @@ section .experiencias .container .uk-card-title*/
     border-radius: 5px;
     cursor: pointer;
     display: none;
+    z-index: 9999
     /* Inicialmente oculto */
 }
 
@@ -218,6 +219,7 @@ section .experiencias .container .uk-card-title*/
 }
 
 .footer-contatos-container {
+    text-align: justify;
     gap: 80px;
 }
 
@@ -248,5 +250,8 @@ footer h5 {
     #atalho-projetos .titulos h3 {
         font-size: 14px;
     }
-
+    
+    .container h3.uk-card-title {
+        margin-top: 20px;
+    }
 }

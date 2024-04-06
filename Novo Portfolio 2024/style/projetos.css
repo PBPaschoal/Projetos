@@ -48,10 +48,10 @@
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave */
     margin-bottom: 25px;
 }
-
+/*
 .custom-card:hover {
-    box-shadow: 0 0 12px rgba(130, 10, 209, 0.4); /* Aumenta a sombra ao passar o mouse */
-}
+    box-shadow: 0 0 12px rgba(130, 10, 209, 0.4); /* Aumenta a sombra ao passar o mouse *
+} */
 
 .custom-card-header {
     background-color: rgb(250, 246, 246);
