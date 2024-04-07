@@ -1,0 +1,33 @@
+.detalhes-projetos {
+    padding: 30px;
+}
+
+.projeto-container-max,
+.imagens-detalhes-projetos,
+.projetos-botoes-mais-informacoes {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.imagens-detalhes-projetos img {
+    width: 300px;
+}
+
+.imagens-detalhes-projetos .foto-projeto {
+    width: 600px;
+    border-radius: 15px;
+}
+
+.imagens-detalhes-projetos {
+    gap: 100px;
+}
+
+.detalhes-projetos h1 {
+    font-size: 25px;
+}

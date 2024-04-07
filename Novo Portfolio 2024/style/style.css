@@ -26,7 +26,8 @@ span.aviso,
 .uk-card-footer a:hover,
 .soft-skills h5,
 .meus-cursos h2,
-.card-title {
+.card-title,
+.detalhes-projetos h1 {
     color: rgb(130, 10, 209);
 }
 
@@ -55,7 +56,9 @@ footer h5 {
 section .experiencias .uk-card-title,
 .projetos .titulos h3,
 .card-curso h6,
-.card-title:hover {
+.card-title:hover,
+.lista-projeto-simulador li,
+.github {
     color: rgb(47, 5, 73);
 }
 
