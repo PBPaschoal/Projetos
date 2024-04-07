@@ -31,3 +31,10 @@
 .detalhes-projetos h1 {
     font-size: 25px;
 }
+
+/* OUTRAS */
+@media (max-width: 768px) {
+    .projetos-botoes-mais-informacoes {
+        justify-content: start;
+    }
+}
