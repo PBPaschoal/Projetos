@@ -79,3 +79,14 @@ figcaption {
 .card-title:hover {
     text-shadow: 0.2em 0.2em 0.2em rgba(47, 5, 73, 0.774);
 }
+
+#botao-leituras {
+    color: rgba(47, 5, 73, 0.774);
+    background-color: rgb(255, 255, 255);
+    transition: 0.5s;
+}
+
+#botao-leituras:hover {
+    color: white;
+    background-color: rgb(130, 10, 209);
+}
