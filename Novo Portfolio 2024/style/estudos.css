@@ -79,7 +79,7 @@ figcaption {
 .card-title:hover {
     text-shadow: 0.2em 0.2em 0.2em rgba(47, 5, 73, 0.774);
 }
-
+/*
 #botao-leituras {
     color: rgba(47, 5, 73, 0.774);
     background-color: rgb(255, 255, 255);
@@ -89,4 +89,16 @@ figcaption {
 #botao-leituras:hover {
     color: white;
     background-color: rgb(130, 10, 209);
+} */
+
+#botao-voltar-pagina-leitura {
+    margin-left: 80px;
+}
+
+/* OUTRAS */
+@media (max-width: 768px) {
+    .botao-estudo {
+        margin-left: -80px;
+        text-align: center;
+    } 
 }
