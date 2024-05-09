@@ -1,0 +1,45 @@
+#ti div.titulo h2,
+#outros div.titulo h2 {
+    color: rgb(255, 0, 255);
+    font-size: 35px;
+}
+
+#ti div.titulo p,
+.data,
+.cargo {
+    font-size: 14px;
+}
+
+main {
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+#outros {
+    padding-top: 50px;
+}
+
+#ti, #outros {
+    text-align: justify;
+}
+
+section#ti,
+section#outros {
+    margin-top: 20px;
+    background-color: rgb(12, 12, 12);
+    padding: 30px;
+    border-radius: 20px;
+}
+
+#ti a {
+    text-decoration: none;
+    color: rgb(255, 0, 255);
+}
+
+/* OUTRAS */
+@media (max-width: 768px) {
+    main {
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+}

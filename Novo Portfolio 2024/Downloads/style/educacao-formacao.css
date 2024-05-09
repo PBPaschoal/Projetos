@@ -1,0 +1,68 @@
+#hero-formacao-educacao h2.titulo, #hero-formacao-educacao h2.cursos  {
+    color: rgb(255, 0, 255);
+}
+
+.estacio-de-sa {
+    display: inline-block;
+}
+
+.cursos {
+    padding-top: 50px;
+}
+
+#hero-formacao-educacao .class-geral-cursos .card-text {
+    color: rgb(0, 0, 0);
+}
+
+.so-cursos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+#hero-formacao-educacao .data {
+    color: rgba(63, 63, 63, 0.76);
+    font-size: 14px;
+}
+
+button {
+    margin-top: 30px;
+}
+
+button.botao-link {
+    border-radius: 18px;
+    padding: 10px;
+    text-align: center; /* Centralizar o texto horizontalmente */
+}
+
+button.botao-link a {
+    text-decoration: none;
+    color: rgb(255, 0, 255);
+}
+
+button.botao-link:hover {
+    background-color: rgb(255, 0, 255);
+}
+
+button.botao-link:hover a {
+    color: rgb(255, 255, 255);
+}
+
+.card img {
+    width: 250px;
+}
+
+.card-body {
+    /*display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;*/
+    width: 240px;
+    height: 180px;
+}
+
+#hero-formacao-educacao .class-geral-cursos {
+    text-align: center;
+}

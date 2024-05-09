@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #003050, #007dfa);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 800px;
+    padding: 2rem;
+    background: rgb(253, 246, 252);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+h1 {
+    color: #113cb3;
+}
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.button {
+    display: inline-block;
+    text-align: center;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: transform 0.2s, box-shadow 0.2s;
+    flex-basis: calc(33.33% - 1rem); 
+}
+
+.facebook {
+    background: linear-gradient(to bottom right, #016fff, #3b5998);
+    color: white;
+}
+
+.instagram,
+.email {
+    background: linear-gradient(to bottom right, #913700, #ff0090);
+    color: white;
+}
+
+.x,
+.threads,
+.github {
+    background: linear-gradient(to bottom right, #1c1d1d, #001172);
+    color: white;
+}
+
+.linkedin {
+    background: linear-gradient(to bottom right, #0a66c2, #5dc6ff);
+    color: white;
+}
+
+.whatsapp {
+    background: linear-gradient(to bottom right, #20ff03, #00df94);
+    color: white;
+}
+
+.portfolio {
+    background: linear-gradient(to bottom right, #fd02d3, #7e0606);
+    color: white;
+}
+
+.fjobstack {
+    background: linear-gradient(to bottom right, #009cf7, #1101f7);
+    color: white;
+}
+
+.cacl {
+    background: linear-gradient(to bottom right, #1901a1, #fc0a16);
+    color: white;
+}
+
+.cro {
+    background: linear-gradient(to bottom right, #ffee00, #1800a3);
+    color: white;
+}
+
+.button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    text-align: center;
+    margin-top: 1.5rem;
+    color: #777;
+}

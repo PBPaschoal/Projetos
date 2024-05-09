@@ -1,0 +1,47 @@
+.div-geral-contatos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 15px;
+}
+/*
+.github-logo img {
+    border-radius: 100%;
+    background-color: rgb(255, 255, 255);
+}*/
+
+.texto-contatos {
+    opacity: 0;
+}
+
+/* OUTRAS */
+@media (max-width: 768px) {
+    .meus-contatos {
+        padding-top: 10%;
+    }
+
+    footer {
+        padding-top: 15%;
+    }
+
+    .texto-contatos {
+        padding-top: 40px;
+        opacity: 1;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .texto-contatos a {
+        color: rgb(255, 0, 255);
+        text-decoration: none;
+        font-size: 18px;
+    }
+}

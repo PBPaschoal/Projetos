@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, rgb(0, 48, 80), rgb(0, 125, 250));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 800px;
+    padding: 2rem;
+    background: linear-gradient(to bottom, rgb(251, 249, 255), rgb(212, 248, 252));
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+h1 {
+    color: rgb(66, 2, 122);
+    text-shadow: 2px 2px #ffffff;
+    font-family: Verdana;
+}
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.button {
+    display: inline-block;
+    text-align: center;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: transform 0.2s, box-shadow 0.2s;
+    flex-basis: calc(33.33% - 1rem); 
+}
+
+.facebook {
+    background: linear-gradient(to bottom right, rgb(1, 111, 255), rgb(59, 89, 152));
+    color: rgb(255, 255, 255);
+}
+
+.instagram,
+.email {
+    background: linear-gradient(to bottom right, rgb(145, 55, 0), rgb(255, 0, 144));
+    color: rgb(255, 255, 255);
+}
+
+.x,
+.threads,
+.github {
+    background: linear-gradient(to bottom right, rgb(28, 29, 29), rgb(0, 17, 114));
+    color: rgb(255, 255, 255);
+}
+
+.linkedin {
+    background: linear-gradient(to bottom right, rgb(10, 102, 194), rgb(93, 198, 255));
+    color: rgb(255, 255, 255);
+}
+
+.whatsapp {
+    background: linear-gradient(to bottom right, rgb(32, 255, 3), rgb(0, 223, 148));
+    color: rgb(255, 255, 255);
+}
+
+.portfolio {
+    background: linear-gradient(to bottom right, rgb(253, 2, 211), rgb(126, 6, 6));
+    color: rgb(255, 255, 255);
+}
+
+.fjobstack {
+    background: linear-gradient(to bottom right, rgb(0, 156, 247), rgb(17, 1, 247));
+    color: rgb(255, 255, 255);
+}
+
+.cacl {
+    background: linear-gradient(to bottom right, rgb(25, 1, 161), rgb(252, 10, 22));
+    color: rgb(255, 255, 255);
+}
+
+.cro {
+    background: linear-gradient(to bottom right, rgb(255, 238, 0), rgb(24, 0, 163));
+    color: rgb(255, 255, 255);
+}
+
+.button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    text-align: center;
+    margin-top: 1.5rem;
+    color: rgb(119, 119, 119);
+}

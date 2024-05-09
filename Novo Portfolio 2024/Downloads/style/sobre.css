@@ -1,0 +1,99 @@
+/*section {
+    background-image: url("../img/Eu/eu-removebg-preview.png");
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position: 100% center;
+
+}*/
+
+#hero-sobre .h2-rosa, h5.card-title {
+    color: rgb(255, 0, 255);
+    text-shadow: 0.2em 0.2em 0.2em rgba(0, 0, 0, 0.445);
+}
+
+.h2-rosa {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/*
+#hero-sobre {
+    background-image: url('/img/Eu/Eu-agosto-2023.png');
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+}*/
+
+.livros {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.livros img {
+    width: 200px;
+}
+
+.mb-3 {
+    /*width: 540px;*/
+    max-width: 800px;
+    max-height: 540px;
+}
+
+.card-text, h5.card-title {
+    text-align: start;
+}
+
+span.info-livro {
+    font-size: 12px;
+}
+
+.minha-foto img {
+    width: 450px;
+    border: 2px inset rgb(255, 0, 255);
+    border-radius: 16px;
+}
+
+.minha-foto {
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+.java-estudos {
+    text-align: center;
+}
+
+.java-estudos img {
+    width: 800px;
+}
+
+/* OUTRAS */
+@media (max-width: 768px) {
+
+    #hero-sobre {
+        text-align: justify;
+    }
+
+    .livros {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .mb-3 {
+        max-height: 840px;
+    }
+
+    .col-md-4{
+        text-align: center;
+    }
+
+    .minha-foto img {
+        width: 350px;
+    }
+
+    .java-estudos img {
+        width: 338px;
+    }
+}

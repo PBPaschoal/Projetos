@@ -27,7 +27,8 @@ span.aviso,
 .soft-skills h5,
 .meus-cursos h2,
 .card-title,
-.detalhes-projetos h1 {
+.detalhes-projetos h1,
+.cor-italico {
     color: rgb(130, 10, 209);
 }
 
@@ -49,7 +50,8 @@ figcaption,
 .stack-imagens figcaption,
 .cta-button:hover,
 footer,
-footer h5 {
+footer h5,
+.obs {
     color: rgb(255, 255, 255);
 }
 
