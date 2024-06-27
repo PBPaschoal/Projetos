@@ -7,8 +7,6 @@ var apartamentos = [
 ];
 
 var sorteioRealizado = 0;
-var numerosDisponiveis = apartamentos.slice();
-var numerosUtilizados = [];
 
 function realizarSorteio() {
     var resultadoDiv = document.getElementById("resultado");
@@ -16,45 +14,35 @@ function realizarSorteio() {
 
     var numerosSorteados = [];
 
-    // Definir a ordem específica apenas para o primeiro clique
     if (sorteioRealizado === 0) {
-        numerosSorteados = [
-            503, 402, 206, 103, 301, 104, 504, 102, 401, 406,
-            303, 505, 204, 506, 304, 105, 202, 101, 501, 403,
-            306, 106, 404, 502, 405, 205, 201, 302, 305, 203
-        ];
+        numerosSorteados = [405, 106, 301, ...sortearRestantes([405, 106, 301])];
     } else {
-        // Sortear aleatoriamente sem repetições para os demais cliques
-        numerosSorteados = sortearAleatorioSemRepeticao(30);
+        numerosSorteados = sortearRestantes([301]);
+        inserir301Entre3e5(numerosSorteados);
     }
 
     for (var i = 0; i < numerosSorteados.length; i++) {
-        resultadoDiv.innerHTML += (i + 1) + "º - Apartamento: " + numerosSorteados[i] + "<br>";
+        resultadoDiv.innerHTML += (i + 1) + "º - APARTAMENTO: " + numerosSorteados[i] + "<br>";
     }
 
     sorteioRealizado++;
 }
 
-function sortearAleatorioSemRepeticao(qtd) {
-    var numerosDisponiveisFiltrados = numerosDisponiveis.filter(function (num) {
-        return numerosUtilizados.indexOf(num) === -1;
+function sortearRestantes(excluidos) {
+    var numerosDisponiveis = apartamentos.filter(function (num) {
+        return excluidos.indexOf(num) === -1;
     });
 
-    if (numerosDisponiveisFiltrados.length === 0) {
-        numerosUtilizados = [];
-        numerosDisponiveisFiltrados = apartamentos.slice();
-    }
-
-    // Sortear a quantidade desejada sem repetições
     var resultados = [];
-    for (var i = 0; i < qtd; i++) {
-        var index = Math.floor(Math.random() * numerosDisponiveisFiltrados.length);
-        var resultado = numerosDisponiveisFiltrados[index];
-        numerosUtilizados.push(resultado);
-        // Remover o número sorteado dos disponíveis
-        numerosDisponiveisFiltrados.splice(index, 1);
-        resultados.push(resultado);
+    while (numerosDisponiveis.length > 0) {
+        var index = Math.floor(Math.random() * numerosDisponiveis.length);
+        resultados.push(numerosDisponiveis.splice(index, 1)[0]);
     }
 
     return resultados;
+}
+
+function inserir301Entre3e5(arr) {
+    var randomIndex = Math.floor(Math.random() * 3) + 2; // Posição aleatória entre 3 e 5 (índices 2 a 4)
+    arr.splice(randomIndex, 0, 301);
 }
