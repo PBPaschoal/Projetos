@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #00A756;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between; /* Para alinhar os itens horizontalmente */
+    align-items: center; /* Para alinhar os itens verticalmente */
+    margin-bottom: 20px; /* Adiciona um espaço entre o header e a primeira section */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: #363F84;
+    border-radius: 8px;
+    transition: 0.6s;
+}
+
+.logo {
+    max-width: 90px; /* Defina o tamanho máximo da imagem conforme necessário */
+    margin-right: 20px; /* Espaçamento entre o menu e a imagem */
+}
+
+/* section */
+
+.primeira {
+    background-image: url(../img/navio.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex; /* Adiciona display flex para centralizar verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+.satisfacao {
+    text-align: center; /* Centraliza o texto horizontalmente */
+    background-color: #ffffff31;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.satisfacao p {
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #17ff8f;
+    text-shadow: 0.2em 0.2em 0.2em #0015b4;
+}
+
+.segunda {
+    text-align: center;
+}
+
+h2 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 50px;
+}
+
+.card {
+    border-radius: 20px;
+    flex: 0 0 18rem; /* Define uma largura fixa para os cards */
+    margin: 10px; /* Adiciona margem entre os cards */
+}
+
+h3 {
+    color: #001eff;
+}
